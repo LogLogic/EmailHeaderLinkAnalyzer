@@ -1,5 +1,5 @@
 # EmailHeaderLinkAnalyzer
-# Email Header & Link Analyzer
+## Email Header & Link Analyzer
 
 A Python-based security tool to analyze email headers and embedded links for signs of phishing, spoofing, and suspicious behavior. Designed for SOC analysts, security researchers, and anyone investigating suspicious emails.
 
