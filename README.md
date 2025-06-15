@@ -38,19 +38,4 @@ pip install python-whois
 
 ## Folder Structure
 
-email-header-link-analyzer/
-├── analyzer/              # Core analysis modules
-│   ├── email_parser.py
-│   ├── link_checker.py
-│   ├── vt_lookup.py
-│   ├── whois_check.py
-│   └── utils.py
-├── data/                  # Raw email samples
-│   └── samples/
-├── tests/                 # Unit tests
-├── config.py              # API keys (excluded from Git)
-├── main.py                # CLI entry point
-├── requirements.txt
-├── .gitignore
-└── README.md
 
