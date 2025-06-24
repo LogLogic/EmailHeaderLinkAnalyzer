@@ -1,0 +1,18 @@
+From: "PayPal Support" <support@secure-paypal-login.evil.com>
+To: you@example.com
+Subject: Important: Verify Your Account
+
+Received: from mail.evil.com (mail.evil.com [203.0.113.1])
+    by mx.example.com with ESMTP id abc123;
+    Tue, 11 Jun 2025 10:00:00 -0500
+
+Dear customer,
+
+We noticed unusual activity in your account and need you to confirm your identity.
+
+Please verify your details at the link below:
+
+https://secure-paypal-login.evil.com/verify
+
+Thank you for your prompt attention,
+PayPal Security Team
