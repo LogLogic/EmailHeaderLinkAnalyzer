@@ -6,14 +6,15 @@ A Python script to analyze email files for phishing and security indicators, inc
 ---
 ## Features
 
-- Parses email headers and body
-- Extracts URLs from the email content
-- Checks SPF and DKIM authentication results
-- Detects domain mismatches and suspicious keywords
-- Submits URLs to VirusTotal for malware/suspicious detection
-- Checks URL redirects
-- Performs WHOIS lookups for domain registration info
-- Generates a detailed report saved as `report.txt`
+-  **Header Parsing**: Extracts common fields (From, To, Subject, Received) from raw email files.
+-  **SPF/DKIM Detection**: Checks sender authentication from Authentication-Results.
+-  **Sender IP Extraction**: Pulls sender IP address from Received headers.
+-  **Domain Mismatch Detection**: Compares sender domain with linked domains.
+-  **VirusTotal Lookup**: Scans URLs using the VirusTotal public API.
+-  **Redirect Checker**: Identifies hidden redirections in embedded links.
+-  **WHOIS Lookup**: Fetches domain creation dates (optional).
+-  **Keyword Phishing Detection**: Flags links using common phishing bait terms.
+-  **Detailed Report Generation**: Outputs a human-readable .txt report.
 
 ---
 ## Requirements
