@@ -28,13 +28,17 @@ A Python script to analyze email files for phishing and security indicators, inc
 
 1. Clone this repository
 2. Install dependencies:
+
    pip install requests python-whois
-3. Set your VirusTotal API key as an environment variable:
+   
+4. Set your VirusTotal API key as an environment variable:
+
    export VT_API_KEY="your_actual_api_key_here"
 
 ---
 ## Usage
 Run the script with an email file as argument:
+
 python3 main.py samples/sample_email.txt
 
 The script will analyze the email and save a report.txt file in the current directory.
