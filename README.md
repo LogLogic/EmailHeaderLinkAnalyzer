@@ -1,4 +1,5 @@
-# Email Analyzer
+# EmailHeaderLinkAnalyzer
+## Email Header & Link Analyzer
 
 A Python script to analyze email files for phishing and security indicators, including SPF/DKIM checks, VirusTotal URL scanning, redirect analysis, and WHOIS lookups.
 
