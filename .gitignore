@@ -3,12 +3,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Environment variables
+# Environment variables file (if you use one)
 .env
-*.env
 
-# VSCode settings
+# VSCode or other editor folders
 .vscode/
 
-# macOS
+# OS files
 .DS_Store
+
+# Logs
+*.log
+
+# Personal config or keys (never commit real keys)
+config.py
+
