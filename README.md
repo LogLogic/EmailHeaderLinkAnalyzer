@@ -1,4 +1,3 @@
-# EmailHeaderLinkAnalyzer
 ## Email Header & Link Analyzer
 
 A Python script to analyze email files for phishing and security indicators, including SPF/DKIM checks, VirusTotal URL scanning, redirect analysis, and WHOIS lookups.
@@ -36,7 +35,7 @@ A Python script to analyze email files for phishing and security indicators, inc
    export VT_API_KEY="your_actual_api_key_here"
 
 ---
-## Usage
+### Running the Script
 Run the script with an email file as argument:
 
 python3 main.py samples/sample_email.txt
